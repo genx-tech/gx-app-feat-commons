@@ -1,0 +1,13 @@
+{
+    "timezone": "Australia/Sydney",
+    "featureRegistry": {
+        "ttlMemCache": [ "src/index", "ttlMemCache" ],
+        "imageProcessor": [ "src/index", "imageProcessor" ],
+        "hasher": [ "src/index", "hasher" ]
+    },
+    "ttlMemCache": {
+        "checkperiod": 3
+    },
+    "imageProcessor": {},
+    "hasher": {}    
+}
