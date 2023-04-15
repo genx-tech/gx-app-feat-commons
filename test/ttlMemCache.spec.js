@@ -2,7 +2,6 @@ const testSuite = require('@genx/test');
 const { sleep_ } = require('@genx/july');
 
 testSuite(
-    __filename,
     function (suite) {
         suite.testCase('test case 1', async function () {
             await suite.startWorker_(async (app) => {

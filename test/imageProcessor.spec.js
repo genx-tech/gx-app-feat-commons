@@ -6,7 +6,6 @@ const imageFile = path.resolve(__dirname, './files/logo.png');
 const generatedFile = path.resolve(__dirname, './files/output.png');
 
 testSuite(
-    __filename,
     function (suite) {
         suite.testCase(
             'fromFile',

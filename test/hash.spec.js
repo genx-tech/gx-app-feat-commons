@@ -4,7 +4,6 @@ const testSuite = require('@genx/test');
 const imageFile = path.resolve(__dirname, './files/logo.png');
 
 testSuite(
-    __filename,
     function (suite) {
         suite.testCase('test case 1', async function () {
             await suite.startWorker_(async (app) => {
